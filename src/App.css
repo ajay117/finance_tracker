@@ -10,8 +10,21 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../src//fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src//fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
 :root {
   --color1: #05074a;
+  --color3: #0b3879;
   --color4: #ffffff;
   --color6: #eaebeb;
   --color8: #090d11;
@@ -33,11 +46,14 @@ body {
   font-size: 1.8rem;
   font-family: "SalesforceSans", sans-serif;
 }
+p {
+  line-height: 23.08px;
+}
 
 /* || Classes */
-/* .fix-container {
+.fix-container {
   width: 1280px;
-} */
+}
 .btn {
   padding: 12px 16px;
   font-size: 14px;
@@ -52,13 +68,15 @@ body {
 .btn-secondary {
   background-color: var(--color4);
   color: var(--color8);
-  border: 1px solid var(--color8);
+  border: 1px solid var(--color6);
 }
 nav .btn-container {
   gap: 24px;
 }
-
 /* || Text Utilities */
+.text-center {
+  text-align: center;
+}
 .fw-4 {
   font-weight: 400;
 }

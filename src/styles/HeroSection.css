@@ -1,0 +1,30 @@
+.hero-container {
+  display: flex;
+  margin: 104px auto 104px;
+}
+.hero-container > div {
+  flex: 1;
+}
+.hero-container h1 {
+  font-size: 54px;
+  font-family: "Poppins";
+  line-height: 70px;
+  margin: 0;
+}
+.hero-container h1 span {
+  color: var(--color3);
+  font-weight: 600;
+}
+.hero-container p {
+  color: var(--color8);
+  margin: 0;
+}
+.hero-container .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-container .btn-container {
+  display: flex;
+  gap: 18px;
+}
