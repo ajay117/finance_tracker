@@ -1,10 +1,11 @@
 nav {
-    padding: 24px 80px;
+  padding: 24px 80px;
 }
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 .nav-container img {
   display: block;
@@ -22,6 +23,6 @@ nav {
   font-weight: 700;
 }
 nav .btn-container {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
