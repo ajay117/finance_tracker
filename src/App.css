@@ -49,6 +49,7 @@ body {
   font-size: 1.8rem;
   font-family: var(--salesforce), sans-serif;
   color: var(--color8);
+  width: 1440px;
 }
 p {
   line-height: 23.08px;
