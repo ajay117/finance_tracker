@@ -1,0 +1,27 @@
+nav {
+    padding: 24px 80px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container img {
+  display: block;
+}
+.nav-container ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2.4rem;
+}
+.nav-container ul a {
+  text-decoration: none;
+  font-family: "Salesforce sans", sans-serif;
+  font-size: 15px;
+  color: var(--color8);
+  font-weight: 700;
+}
+nav .btn-container {
+    display: flex;
+    gap: 24px;
+}
