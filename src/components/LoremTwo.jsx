@@ -3,7 +3,7 @@ import "../styles/LoremTwo.css";
 import { Card } from "./Card";
 import BarChartIcon from "../assets/images/icons/bar-chart.svg";
 import LineChartIcon from "../assets/images/icons/line-chart.svg";
-import PieChartIcon from "../assets/images/icons/Pie-chart.svg";
+import PieChartIcon from "../assets/images/icons/pie-chart.svg";
 
 export const LoremTwo = () => {
   return (
