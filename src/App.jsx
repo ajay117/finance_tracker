@@ -3,6 +3,7 @@ import { BrandInfo } from "./components/BrandsInfo";
 
 import { HeroSection } from "./components/HeroSection";
 import { LoremOne } from "./components/LoremOne";
+import { LoremTwo } from "./components/LoremTwo";
 import { Nav } from "./components/Nav";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <BrandInfo />
       <LoremOne />
+      <LoremTwo />
     </>
   );
 }

@@ -1,0 +1,19 @@
+.card {
+  padding: 40px 30px;
+  background-color: var(--color5);
+  border-radius: 20px;
+  border: 1px solid var(--color6);
+}
+.card-title {
+    margin: 0;
+}
+.card-head {
+  gap: 24px;
+  margin-bottom: 44px;
+}
+.card-title {
+  font-family: var(--popping);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 30px;
+}

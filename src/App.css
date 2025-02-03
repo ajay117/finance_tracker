@@ -92,6 +92,9 @@ nav .btn-container {
 .align-items-center {
   align-items: center;
 }
+.gap-4 {
+  gap: 40px;
+}
 
 /* || Text Utilities */
 .text-center {
@@ -110,6 +113,9 @@ nav .btn-container {
 /* || Others */
 .m-0 {
   margin: 0;
+}
+.mt-4 {
+  margin-top: 40px;
 }
 .w-100 {
   width: 100%;
