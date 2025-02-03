@@ -26,6 +26,7 @@
   --color1: #05074a;
   --color3: #0b3879;
   --color4: #ffffff;
+  --color5: #f7f7f7;
   --color6: #eaebeb;
   --color8: #090d11;
   --salesforce: "SalesforceSans";
@@ -47,6 +48,7 @@ body {
 body {
   font-size: 1.8rem;
   font-family: var(--salesforce), sans-serif;
+  color: var(--color8);
 }
 p {
   line-height: 23.08px;
@@ -108,4 +110,7 @@ nav .btn-container {
 /* || Others */
 .m-0 {
   margin: 0;
+}
+.w-100 {
+  width: 100%;
 }

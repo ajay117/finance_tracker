@@ -1,6 +1,8 @@
 import "./App.css";
 import { BrandInfo } from "./components/BrandsInfo";
+
 import { HeroSection } from "./components/HeroSection";
+import { LoremOne } from "./components/LoremOne";
 import { Nav } from "./components/Nav";
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
       <Nav />
       <HeroSection />
       <BrandInfo />
+      <LoremOne />
     </>
   );
 }

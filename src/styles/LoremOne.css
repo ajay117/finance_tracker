@@ -1,0 +1,44 @@
+.lorem-one {
+  padding: 101px 0;
+}
+.lorem-one h3 {
+  size: 4rem;
+  line-height: 44px;
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+.lorem-one p {
+  margin: 0;
+}
+.lorem-one .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 485px;
+}
+.lorem-one .btn-container {
+  display: flex;
+  gap: 18px;
+}
+.lorem-one .gallery {
+  gap: 24px;
+}
+.lorem-one .box1 {
+  flex: 1.5;
+  text-align: right;
+}
+.lorem-one .box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+}
+.lorem-one .box2 > p {
+  font-size: 2.4rem;
+  padding: 27px 17px;
+  background-color: var(--color5);
+  border-radius: 20px;
+  border: 1px solid var(--color6);
+}
