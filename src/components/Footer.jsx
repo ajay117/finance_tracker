@@ -40,19 +40,19 @@ export const Footer = () => {
           <p>QUICK LINKS</p>
           <ul>
             <li>
-              <a href="/home">Home</a>
+              <a href="/#home">Home</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <a href="/pricing">Pricing</a>
+              <a href="/#pricing">Pricing</a>
             </li>
             <li>
-              <a href="/service">Service</a>
+              <a href="/#service">Service</a>
             </li>
             <li>
-              <a href="/team">Team</a>
+              <a href="/#team">Team</a>
             </li>
           </ul>
         </div>
