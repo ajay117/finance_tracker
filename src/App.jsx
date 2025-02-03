@@ -1,5 +1,5 @@
 import "./App.css";
-import { Nav } from "./assets/components/Nav";
+import { Nav } from "./components/Nav";
 
 function App() {
   return (
