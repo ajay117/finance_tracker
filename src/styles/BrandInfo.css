@@ -1,0 +1,13 @@
+.brands-info {
+  background-color: var(--color1);
+  padding: 40px 80px;
+}
+.brands-info > div > h3 {
+  color: var(--color4);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-top: 0;
+}

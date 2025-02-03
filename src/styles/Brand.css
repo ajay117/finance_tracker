@@ -1,0 +1,23 @@
+.brand {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.brand .logo {
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: var(--color4);
+  width: 40px;
+  height: 40px;
+  font-family: var(--poppins);
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.brand .brand-name {
+    color: var(--color4);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 20px;
+}
